@@ -14209,28 +14209,28 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="1R2" library="rcl" deviceset="R-EU_" device="R0805" value="150k"/>
 <part name="1R1" library="rcl" deviceset="R-EU_" device="R0805" value="15k"/>
-<part name="1C1" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="10m"/>
+<part name="1C1" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10m"/>
 <part name="1R4" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="1C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="10m"/>
+<part name="1C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10m"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="1R7" library="rcl" deviceset="R-EU_" device="R0805" value="5k1"/>
-<part name="1C3" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100m"/>
+<part name="1C3" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100m"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="1R8" library="rcl" deviceset="R-EU_" device="0207/2V" value="100 0.5w"/>
-<part name="1C7" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100m"/>
+<part name="1C7" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="100m"/>
 <part name="1C4*" library="rcl" deviceset="C-EU" device="050-030X075" value="330"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="1C5" library="rcl" deviceset="C-EU" device="050-030X075" value="470"/>
-<part name="1C6" library="rcl" deviceset="C-EU" device="150-072X183" value="100n"/>
+<part name="1C6" library="rcl" deviceset="C-EU" device="102-064X133" value="100n"/>
 <part name="1R9" library="rcl" deviceset="R-EU_" device="0207/15" value="1 0.5w"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="1C8" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="10m"/>
+<part name="1C8" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10m"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="1R10*" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
-<part name="1C9" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="2000m(10000m)"/>
+<part name="1C9" library="rcl" deviceset="CPOL-EU" device="E5-13" value="2000m(10000m)"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="1C10" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="1000m"/>
+<part name="1C10" library="rcl" deviceset="CPOL-EU" device="E5-13" value="1000m"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="1R3" library="rcl" deviceset="R-TRIMM" device="3296W" value="47k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
