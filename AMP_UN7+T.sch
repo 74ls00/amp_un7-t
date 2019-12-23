@@ -14104,9 +14104,65 @@ DIN A4, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
+<library name="untitled">
+<packages>
+<package name="CON_PWR_2PIN4MM">
+<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
+<text x="-2.505" y="2.57" size="1.27" layer="51" ratio="10">1</text>
+<text x="1.5858" y="2.5192" size="1.27" layer="51" ratio="10">2</text>
+<text x="-3.51" y="-4.085" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.11" y="-6.818" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<wire x1="-4" y1="4" x2="-4" y2="3" width="0.127" layer="21"/>
+<pad name="1" x="-2" y="0" drill="1.6" shape="long" rot="R90"/>
+<pad name="2" x="2" y="0" drill="1.6" shape="long" rot="R90"/>
+<wire x1="-4" y1="3" x2="-4" y2="-4" width="0.127" layer="21"/>
+<wire x1="4" y1="-4" x2="4" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CON_2P">
+<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CON_2P">
+<gates>
+<gate name="G$1" symbol="CON_2P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON_PWR_2PIN4MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Разъёмы штырьковые 2.54мм">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;
+
+
+&lt;p&gt;&lt;p&gt;
+pinhead.lbr 6.4</description>
 <packages>
 <package name="1X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -14129,8 +14185,6 @@ DIN A4, landscape with extra doc field</description>
 <pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
 <package name="1X02/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -14194,58 +14248,6 @@ DIN A4, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="untitled">
-<packages>
-<package name="CON_PWR_2PIN4MM">
-<description>&lt;b&gt;WAGO SREW CLAMP&lt;/b&gt;</description>
-<text x="-2.505" y="2.57" size="1.27" layer="51" ratio="10">1</text>
-<text x="1.5858" y="2.5192" size="1.27" layer="51" ratio="10">2</text>
-<text x="-3.51" y="-4.085" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.11" y="-6.818" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="-4" y1="4" x2="-4" y2="3" width="0.127" layer="21"/>
-<pad name="1" x="-2" y="0" drill="1.6" shape="long" rot="R90"/>
-<pad name="2" x="2" y="0" drill="1.6" shape="long" rot="R90"/>
-<wire x1="-4" y1="3" x2="-4" y2="-4" width="0.127" layer="21"/>
-<wire x1="4" y1="-4" x2="4" y2="3" width="0.127" layer="21"/>
-<wire x1="4" y1="3" x2="4" y2="4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CON_2P">
-<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
-<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CON_2P">
-<gates>
-<gate name="G$1" symbol="CON_2P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CON_PWR_2PIN4MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14290,8 +14292,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="IN1" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="OUT1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="IN1" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X2" device=""/>
+<part name="OUT1" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X2" device=""/>
 <part name="HEATSINK1" library="k174un7" deviceset="HEATSINK" device="_V" value=""/>
 <part name="HEATSINK2" library="k174un7" deviceset="HEATSINK" device="_V" value=""/>
 <part name="+12V" library="untitled" deviceset="CON_2P" device=""/>
@@ -14332,8 +14334,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="IN2" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="OUT2" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="IN2" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X2" device=""/>
+<part name="OUT2" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X2" device=""/>
 <part name="2R8'" library="rcl" deviceset="R-EU_" device="R1210W"/>
 <part name="2C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
