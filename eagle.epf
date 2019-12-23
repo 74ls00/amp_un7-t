@@ -17,20 +17,12 @@ UsedLibrary="G:/home/Documents/Projects/EAGLE/DSS-36/DSS.lbr"
 UsedLibrary="untitled.lbr"
 
 [Win_1]
-Type="CAM Processor"
-Loc="332 293 931 728"
-State=2
-Number=3
-File="AMP_UN7+T.brd"
-Job="ExportGerber.cam"
-
-[Win_2]
 Type="Schematic Editor"
 Loc="502 447 1101 846"
 State=1
 Number=1
 File="AMP_UN7+T.sch"
-View="-26.6654 -13.74 292.864 191.67"
+View="19.4627 31.2849 241.358 173.931"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -69,17 +61,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -26.6654 -13.74 292.864 191.67"
+Views=" 1: 19.4627 31.2849 241.358 173.931"
 Sheet=1
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Loc="332 293 931 692"
 State=1
 Number=2
 File="AMP_UN7+T.brd"
-View="37.8447 -0.142759 64.4678 65.8988"
-WireWidths=" 0 1.4224 1.6764 1.9304 2.1844 3.81 6.4516 0.4064 0.8128 2.54 1.778 1.27 0.3048 0.254 0.6096 1.016"
+View="25.6446 3.46517 44.1329 49.3274"
+WireWidths=" 0 1.4224 1.6764 1.9304 2.1844 3.81 6.4516 0.4064 0.8128 2.54 1.778 0.3048 0.254 1.27 1.016 0.6096"
 PadDiameters=" 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 3.81 6.4516 0 2.1844 2.54 2.3 5"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 3.81 6.4516 0 2.1844 2.54 2.3 5"
@@ -118,9 +110,17 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
+[Win_3]
+Type="CAM Processor"
+Loc="332 293 931 728"
+State=2
+Number=3
+File="AMP_UN7+T.brd"
+Job="ExportGerber.cam"
+
 [Win_4]
 Type="Control Panel"
-Loc="176 125 1259 712"
+Loc="33 234 1116 821"
 State=2
 Number=0
 

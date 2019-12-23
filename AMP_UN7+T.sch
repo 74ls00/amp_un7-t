@@ -14470,9 +14470,9 @@ DIN A4, landscape with extra doc field</description>
 <instance part="GND3" gate="1" x="101.6" y="91.44"/>
 <instance part="1C5" gate="G$1" x="101.6" y="114.3"/>
 <instance part="1C6" gate="G$1" x="109.22" y="114.3"/>
-<instance part="1R9" gate="G$1" x="109.22" y="101.6" smashed="yes" rot="MR270">
-<attribute name="NAME" x="110.49" y="102.6414" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="110.49" y="104.902" size="1.778" layer="96" rot="MR180"/>
+<instance part="1R9" gate="G$1" x="109.22" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.49" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="109.22" y="91.44"/>
 <instance part="1C8" gate="G$1" x="76.2" y="114.3" rot="MR0"/>
@@ -14631,7 +14631,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="101.6" y1="93.98" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="1R9" gate="G$1" pin="2"/>
+<pinref part="1R9" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="109.22" y1="96.52" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -14857,7 +14857,7 @@ DIN A4, landscape with extra doc field</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="1C6" gate="G$1" pin="2"/>
-<pinref part="1R9" gate="G$1" pin="1"/>
+<pinref part="1R9" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="109.22" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
