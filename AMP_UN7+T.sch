@@ -187,20 +187,20 @@
 <wire x1="2.8575" y1="2.936875" x2="10.16" y2="2.936875" width="0.1524" layer="21"/>
 </package>
 <package name="H_VELS">
-<wire x1="12.5" y1="-12.5" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="-12.5" x2="-12.5" y2="12.5" width="0.127" layer="21"/>
 <hole x="0" y="8.3" drill="3.2"/>
 <hole x="0" y="-8.3" drill="3.2"/>
-<wire x1="-1" y1="16" x2="1" y2="16" width="0.127" layer="21"/>
-<wire x1="-1" y1="-16" x2="1" y2="-16" width="0.127" layer="21"/>
-<wire x1="-1" y1="16" x2="-12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="1" y1="16" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-16" x2="12.5" y2="-12.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-16" x2="-12.5" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="16" x2="1" y2="16" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="-16" x2="1" y2="-16" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="16" x2="-12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1" y1="16" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1" y1="-16" x2="12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="-16" x2="-12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
 <hole x="0" y="14" drill="2.2"/>
 <hole x="0" y="-14" drill="2.2"/>
-<wire x1="-12.5" y1="12.5" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="-12.5" x2="12.5" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="12.5" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-12.5" y1="-12.5" x2="12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-12.5" y1="-12.5" x2="-12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="12.5" y1="-12.5" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
 </package>
 <package name="H_ELEGIA">
 <wire x1="-11" y1="-12.5" x2="11" y2="-12.5" width="0.127" layer="21"/>

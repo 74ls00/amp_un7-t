@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -149,12 +149,15 @@
 <board>
 <plain>
 <dimension x1="88.265" y1="52.3875" x2="88.5825" y2="13.335" x3="92.71" y3="32.86125" textsize="1.778" layer="21" dtype="vertical"/>
-<wire x1="6.985" y1="52.3875" x2="86.0425" y2="52.3875" width="0.254" layer="20"/>
-<wire x1="86.0425" y1="52.3875" x2="86.0425" y2="13.335" width="0.254" layer="20"/>
-<wire x1="86.0425" y1="13.335" x2="6.985" y2="13.335" width="0.254" layer="20"/>
-<wire x1="6.985" y1="13.335" x2="6.985" y2="52.3875" width="0.254" layer="20"/>
+<wire x1="6.985" y1="52.3875" x2="86.0425" y2="52.3875" width="0.1524" layer="20"/>
+<wire x1="86.0425" y1="52.3875" x2="86.0425" y2="13.335" width="0.1524" layer="20"/>
+<wire x1="6.985" y1="15.24" x2="6.985" y2="52.3875" width="0.1524" layer="20"/>
 <dimension x1="6.985" y1="10.795" x2="86.0425" y2="10.795" x3="46.51375" y3="7.3025" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="22.225" y1="55.245" x2="83.185" y2="54.2925" x3="52.705" y3="58.7375" textsize="1.778" layer="21" dtype="horizontal"/>
+<wire x1="8.89" y1="13.335" x2="6.985" y2="15.24" width="0.1524" layer="20"/>
+<wire x1="8.89" y1="13.335" x2="86.0425" y2="13.335" width="0.1524" layer="20"/>
+<wire x1="24.13" y1="52.3875" x2="20.32" y2="52.3875" width="0.1524" layer="21" curve="-259.611142"/>
+<wire x1="85.09" y1="52.3875" x2="81.28" y2="52.3875" width="0.1524" layer="21" curve="-259.611142"/>
 </plain>
 <libraries>
 <library name="k174un7">
@@ -196,20 +199,20 @@
 <wire x1="2.8575" y1="2.936875" x2="10.16" y2="2.936875" width="0.1524" layer="21"/>
 </package>
 <package name="H_VELS">
-<wire x1="12.5" y1="-12.5" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="-12.5" x2="-12.5" y2="12.5" width="0.127" layer="21"/>
 <hole x="0" y="8.3" drill="3.2"/>
 <hole x="0" y="-8.3" drill="3.2"/>
-<wire x1="-1" y1="16" x2="1" y2="16" width="0.127" layer="21"/>
-<wire x1="-1" y1="-16" x2="1" y2="-16" width="0.127" layer="21"/>
-<wire x1="-1" y1="16" x2="-12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="1" y1="16" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-16" x2="12.5" y2="-12.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-16" x2="-12.5" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="16" x2="1" y2="16" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="-16" x2="1" y2="-16" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="16" x2="-12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1" y1="16" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1" y1="-16" x2="12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1" y1="-16" x2="-12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
 <hole x="0" y="14" drill="2.2"/>
 <hole x="0" y="-14" drill="2.2"/>
-<wire x1="-12.5" y1="12.5" x2="12.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="-12.5" x2="12.5" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="12.5" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-12.5" y1="-12.5" x2="12.5" y2="-12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-12.5" y1="-12.5" x2="-12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="12.5" y1="-12.5" x2="12.5" y2="12.5" width="0.127" layer="21" style="shortdash"/>
 </package>
 </packages>
 </library>
@@ -1802,7 +1805,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="21.59" y="40.9575" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="1C1" library="rcl" package="E2,5-5" value="10m" x="26.9875" y="48.895" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.5745" y="51.435" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="24.5745" y="47.9425" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="24.5745" y="51.308" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="1R4" library="rcl" package="R0805" value="10k" x="29.21" y="41.5925" smashed="yes" rot="MR0">
@@ -1810,7 +1813,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="29.845" y="39.0525" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="1C2" library="rcl" package="E2,5-5" value="10m" x="24.765" y="41.5925" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.543" y="38.4175" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="26.8605" y="39.0525" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="22.352" y="44.0055" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="1R7" library="rcl" package="R0805" value="5k1" x="31.4325" y="45.4025" smashed="yes" rot="MR180">
@@ -1818,7 +1821,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="30.7975" y="47.9425" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="1C3" library="rcl" package="E2,5-6" value="100m" x="11.1125" y="26.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.4295" y="27.8765" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="11.303" y="29.2735" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="8.4455" y="29.337" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="1R8" library="rcl" package="R1210W" value="100 0.5w" x="39.37" y="19.685" smashed="yes" rot="MR270">
@@ -1830,7 +1833,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="45.2755" y="38.862" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1C4*" library="rcl" package="C050-025X075" value="330" x="38.1" y="42.545" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.354" y="46.736" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="38.989" y="46.736" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="40.894" y="39.116" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="1C5" library="rcl" package="C050-030X075" value="470" x="31.115" y="26.035" smashed="yes" rot="R90">
@@ -1842,11 +1845,11 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="18.732490625" y="19.36749375" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="1R9" library="rcl" package="0411V" value="1 0.5w" x="11.684" y="19.7485" smashed="yes" rot="R310">
-<attribute name="NAME" x="15.66723125" y="19.940875" size="1.27" layer="25" ratio="10" rot="R220"/>
+<attribute name="NAME" x="11.174125" y="23.60473125" size="1.27" layer="25" ratio="10" rot="R310"/>
 <attribute name="VALUE" x="9.49266875" y="18.60605" size="1.27" layer="27" ratio="10" rot="R310"/>
 </element>
 <element name="1C8" library="rcl" package="E2,5-5" value="10m" x="33.3375" y="41.5925" smashed="yes">
-<attribute name="NAME" x="35.1155" y="38.4175" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="30.607" y="43.18" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.7505" y="39.1795" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1R10*" library="rcl" package="0207/12" value="1k" x="28.8925" y="45.4025" smashed="yes" rot="R180">
@@ -1862,25 +1865,25 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="6.21" y="38.4725" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IN1" library="pinhead" package="1X02" value="" x="32.385" y="49.8475" smashed="yes">
-<attribute name="NAME" x="31.0388" y="51.6763" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="33.2613" y="46.5963" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.845" y="46.6725" size="1.27" layer="27"/>
 </element>
 <element name="OUT1" library="pinhead" package="1X02" value="" x="11.43" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.9187" y="17.3863" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="11.8237" y="19.1262" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="18.415" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="HEATSINK1" library="k174un7" package="H_VELS" value="" x="31.75" y="26.035" rot="R90"/>
 <element name="HEATSINK2" library="k174un7" package="H_VELS" value="" x="69.85" y="26.035" rot="R90"/>
 <element name="+12V" library="untitled" package="CON_PWR_2PIN4MM" value="CON_2P" x="43.18" y="47.9425" smashed="yes" rot="R180">
 <attribute name="VALUE" x="46.69" y="52.0275" size="1.27" layer="27" ratio="10" rot="R180"/>
-<attribute name="NAME" x="44.7025" y="52.2205" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="44.385" y="51.5855" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="1R8'" library="rcl" package="R1210W" value="" x="35.56" y="26.67" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.735" y="30.1625" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="38.735" y="29.21" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C11" library="rcl" package="C0805" value="100n" x="43.4975" y="44.45" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.355" y="45.4025" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="46.6725" y="44.7675" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="44.7675" y="41.91" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="1C10" library="rcl" package="C0805" value="100n" x="25.4" y="39.37" smashed="yes" rot="MR0">
@@ -1889,7 +1892,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 </element>
 <element name="DA2" library="k174un7" package="DIL16-12" value="К174УН7" x="69.85" y="26.035" rot="R90"/>
 <element name="VT2" library="m_transistor" package="TO92" value="КТ3102Е" x="53.34" y="34.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.482" y="33.02" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="46.7995" y="35.2425" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="57.912" y="31.75" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="2R5" library="rcl" package="R0805" value="10k" x="69.215" y="37.7825" smashed="yes" rot="MR90">
@@ -1921,7 +1924,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="61.722" y="44.0055" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="2R7" library="rcl" package="R0805" value="5k1" x="70.8025" y="44.7675" smashed="yes" rot="MR180">
-<attribute name="NAME" x="73.025" y="44.7675" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="72.7075" y="44.1325" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="70.1675" y="47.3075" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="2C3" library="rcl" package="E2,5-6" value="100m" x="50.8" y="26.67" smashed="yes" rot="R180">
@@ -1933,7 +1936,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="81.28" y="22.225" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="2C7" library="rcl" package="E2,5-5" value="100m" x="82.2325" y="41.275" smashed="yes">
-<attribute name="NAME" x="80.8355" y="44.1325" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="81.788" y="44.1325" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="84.6455" y="38.862" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="2C4*" library="rcl" package="C050-025X075" value="330" x="78.105" y="42.545" smashed="yes" rot="R90">
@@ -1966,11 +1969,11 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <attribute name="VALUE" x="45.58" y="38.4725" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IN2" library="pinhead" package="1X02" value="" x="70.485" y="48.895" smashed="yes">
-<attribute name="NAME" x="69.1388" y="50.4063" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="73.2663" y="50.7238" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.945" y="45.72" size="1.27" layer="27"/>
 </element>
 <element name="OUT2" library="pinhead" package="1X02" value="" x="47.625" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.8437" y="13.2588" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="44.5262" y="15.3162" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="50.165" y="18.415" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="2R8'" library="rcl" package="R1210W" value="" x="73.66" y="26.67" smashed="yes" rot="MR270">
@@ -2095,14 +2098,15 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <wire x1="72.0725" y1="45.4025" x2="71.755" y2="48.895" width="0.6096" layer="1"/>
 <wire x1="42.5475" y1="44.45" x2="41.18" y2="47.9425" width="1.27" layer="16"/>
 <wire x1="38.1" y1="45.085" x2="41.18" y2="47.9425" width="1.27" layer="16"/>
-<polygon width="0.254" layer="1" orphans="yes" thermals="no">
-<vertex x="7.3025" y="13.6525"/>
-<vertex x="85.725" y="13.6525"/>
-<vertex x="85.725" y="52.07"/>
-<vertex x="7.3025" y="52.07"/>
-</polygon>
 <wire x1="49.53" y1="26.67" x2="49.53" y2="24.003" width="1.27" layer="16"/>
 <wire x1="49.53" y1="24.003" x2="48.641" y2="23.114" width="1.27" layer="16"/>
+<polygon width="0.1524" layer="1" orphans="yes" thermals="no">
+<vertex x="7.3025" y="52.07"/>
+<vertex x="85.725" y="52.07"/>
+<vertex x="85.725" y="13.6525"/>
+<vertex x="9.2075" y="13.6525"/>
+<vertex x="7.3025" y="15.5575"/>
+</polygon>
 </signal>
 <signal name="N$3">
 <contactref element="VT1" pad="2"/>
@@ -2212,8 +2216,8 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <contactref element="DA1" pad="6"/>
 <contactref element="1C8" pad="-"/>
 <contactref element="1R10*" pad="1"/>
-<wire x1="35.56" y1="34.925" x2="35.2425" y2="40.3225" width="0.6096" layer="16"/>
-<wire x1="35.2425" y1="40.3225" x2="34.6075" y2="41.5925" width="0.6096" layer="16"/>
+<wire x1="35.56" y1="34.925" x2="35.56" y2="39.37" width="0.6096" layer="16"/>
+<wire x1="35.56" y1="39.37" x2="34.6075" y2="41.5925" width="0.6096" layer="16"/>
 <wire x1="35.2425" y1="45.4025" x2="35.2425" y2="42.2275" width="0.6096" layer="16"/>
 <wire x1="35.2425" y1="42.2275" x2="34.6075" y2="41.5925" width="0.6096" layer="16"/>
 </signal>
@@ -2466,10 +2470,10 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <wire x1="44.7675" y1="16.8275" x2="46.355" y2="15.24" width="1.016" layer="16"/>
 </signal>
 <signal name="N$7">
-<via x="83.185" y="50.8" extent="1-16" drill="0.8" diameter="5"/>
+<via x="83.185" y="50.8" extent="1-16" drill="0.8" diameter="2.54"/>
 </signal>
 <signal name="N$15">
-<via x="22.225" y="50.8" extent="1-16" drill="0.8" diameter="5"/>
+<via x="22.225" y="50.8" extent="1-16" drill="0.8" diameter="2.54"/>
 </signal>
 </signals>
 </board>
